@@ -1,0 +1,34 @@
+body,html{ width: 100%; height: 100%; background: #F4F4F4; font-family: "微软雅黑";}
+i{ font-style: normal;}
+.noborder{border:none !important;}
+/*首页*/
+.user-title{ position: relative; width: 100%; height: 26vh; background: #E2C743; border-bottom: 15px solid #e5e5e5;}
+.user-title>div{ position:absolute; left: 50%; margin-bottom: 10px; width:16vh; height:16vh; background:url(../images/0.jpg) center center; text-align: center; 
+		background-size: cover;
+		border-radius: 50%;
+		transform: translate(-50%,2vh);}
+.user-title>p{ position: relative; text-align: center; font-size: 1.3em; line-height: 7vh;}
+.grids-box{ margin-bottom: 15px; border-top: 1px solid #ECECEC; border-bottom: 1px solid #ECECEC; background: #fff;}
+.grid-font{ color: #828282;}
+.user-name{ position: relative; top: 18vh; color: #fff;}
+hr{ height: 2px; border: 0; background-color: #ececec;}
+
+/*会员信息*/
+.member-title{ width: 100%; height: 7.5vh; background: #E2C743; text-align: center;}
+.member-title>span{ float: left; position:absolute; left: 1em; font-size: 0.9em;}
+.font-member{ color: #fff; font-size: 1.2em; line-height: 7.5vh;}
+.list-cells{ margin: 0; border-top: 1px solid #ECECEC; border-bottom: 1px solid #ECECEC;}
+.list-title{ border-bottom: none;}
+.list-inline-bg{ padding: 2px 8px; background: #287DE6; border-radius: 1em; font-size: 0.5em; color: #fff;}
+.list-info{ border-top:none;}
+.member-info-footer{ margin-top: 30px;}
+.member-info-footer>p{ font-size: 13px !important;}
+
+/*修改手机号码*/
+.list-phone{ border-bottom: none;}
+.weui-cell_select-before{ padding: 10px 15px;}
+.list-inline-bg-2{ padding: 2px 12px; background: #E6E5E5; border-radius: 5px; font-size: 0.5em; color: #000;}
+.weui-btn-submit{background: #E2C743;}
+
+/*我的优惠券*/
+.list-coupon-tip{ height: 6.5vh; background: #F4F4F4; font-size: 0.9em; color: #8A8686; line-height: 6.5vh; text-align: center;}
