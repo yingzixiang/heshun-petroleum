@@ -1,7 +1,7 @@
-body,html{ width: 100%; height: 100%; background: #F4F4F4; font-family: "Î¢ÈíÑÅºÚ";}
+body,html{ width: 100%; height: 100%; background: #F4F4F4; font-family: "å¾®è½¯é›…é»‘";}
 i{ font-style: normal;}
 .noborder{border:none !important;}
-/*Ê×Ò³*/
+/*ï¿½ï¿½Ò³*/
 .user-title{ position: relative; width: 100%; height: 26vh; background: #E2C743; border-bottom: 15px solid #e5e5e5;}
 .user-title>div{ position:absolute; left: 50%; margin-bottom: 10px; width:16vh; height:16vh; background:url(../images/0.jpg) center center; text-align: center; 
 		background-size: cover;
@@ -13,7 +13,7 @@ i{ font-style: normal;}
 .user-name{ position: relative; top: 18vh; color: #fff;}
 hr{ height: 2px; border: 0; background-color: #ececec;}
 
-/*»áÔ±ÐÅÏ¢*/
+/*ï¿½ï¿½Ô±ï¿½ï¿½Ï¢*/
 .member-title{ width: 100%; height: 7.5vh; background: #E2C743; text-align: center;}
 .member-title>span{ float: left; position:absolute; left: 1em; font-size: 0.9em;}
 .font-member{ color: #fff; font-size: 1.2em; line-height: 7.5vh;}
@@ -24,11 +24,11 @@ hr{ height: 2px; border: 0; background-color: #ececec;}
 .member-info-footer{ margin-top: 30px;}
 .member-info-footer>p{ font-size: 13px !important;}
 
-/*ÐÞ¸ÄÊÖ»úºÅÂë*/
+/*ï¿½Þ¸ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½*/
 .list-phone{ border-bottom: none;}
 .weui-cell_select-before{ padding: 10px 15px;}
 .list-inline-bg-2{ padding: 2px 12px; background: #E6E5E5; border-radius: 5px; font-size: 0.5em; color: #000;}
 .weui-btn-submit{background: #E2C743;}
 
-/*ÎÒµÄÓÅ»ÝÈ¯*/
+/*ï¿½Òµï¿½ï¿½Å»ï¿½È¯*/
 .list-coupon-tip{ height: 6.5vh; background: #F4F4F4; font-size: 0.9em; color: #8A8686; line-height: 6.5vh; text-align: center;}
