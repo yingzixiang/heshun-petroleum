@@ -24,11 +24,68 @@
 		  会员不定期发放代金券，请在到期前使用哦!
 		</div>
 		
-		<!--优惠券列表-->
-	    <div class="weui-cell" style="height: 7.5vh; background:#fff; font-size: 0.9em; color: #8A8686; text-align: center;">
+		<!--无优惠券-->
+	    <div class="weui-cell coupon-no" style="height: 7.5vh; background:#fff; font-size: 0.9em; color: #8A8686; text-align: center;">
 	  		<div class="weui-cell__bd">
           		您还没有未使用的代金券
 		    </div>
+		</div>
+		
+		<!--优惠券列表-->
+		<div class="weui-cells" style="margin: 0; width: 100%; height: auto;">
+		  <div class="coupon-list">
+		  	<div class="coupon-img">
+		  		<img src="images/0.jpg" width="50px" height="50px;" /> 
+		  	</div>
+		  	<div class="coupon-text">
+		  		<strong>券号:7171883300</strong>
+		  		<br />
+		  		<span>金额:10元[加油抵用券][不限油品]</span>
+		  		<br />
+		  		<span>生效时间:2016-12-29 00:00:00</span>
+		  		<br />
+		  		<span>失效时间:2017-10-31 23:59:59</span>
+		  	</div>
+		  	<div class="weui-cell__ft coupon-last" style="">
+		  		>
+		    </div>
+		  </div>
+		  
+		  <div class="coupon-list">
+		  	<div class="coupon-img">
+		  		<img src="images/0.jpg" width="50px" height="50px;" /> 
+		  	</div>
+		  	<div class="coupon-text">
+		  		<strong>券号:7171883300</strong>
+		  		<br />
+		  		<span>金额:10元[加油抵用券][不限油品]</span>
+		  		<br />
+		  		<span>生效时间:2016-12-29 00:00:00</span>
+		  		<br />
+		  		<span>失效时间:2017-10-31 23:59:59</span>
+		  	</div>
+		  	<div class="weui-cell__ft coupon-last" style="">
+		  		>
+		    </div>
+		  </div>
+		  
+		  <div class="coupon-list">
+		  	<div class="coupon-img">
+		  		<img src="images/0.jpg" width="50px" height="50px;" /> 
+		  	</div>
+		  	<div class="coupon-text">
+		  		<strong>券号:7171883300</strong>
+		  		<br />
+		  		<span>金额:10元[加油抵用券][不限油品]</span>
+		  		<br />
+		  		<span>生效时间:2016-12-29 00:00:00</span>
+		  		<br />
+		  		<span>失效时间:2017-10-31 23:59:59</span>
+		  	</div>
+		  	<div class="weui-cell__ft coupon-last" style="">
+		  		>
+		    </div>
+		  </div>
 		</div>
 	</body>
 </html>
@@ -41,4 +98,5 @@
 <script src="js/ui.js"></script>
 <script>
 	$(".return").unbind().bind("touchstart", function () { document.location.href = "index.html"; })
+	$(".coupon-list").unbind().bind("touchstart", function () { document.location.href = "coupon-inline.html"; })
 </script>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-touch-fullscreen" content="YES">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>和顺石油</title>
+		<link rel="stylesheet" href="/jquery-weui-build/dist/lib/weui.css">
+		<link rel="stylesheet" href="/jquery-weui-build/dist/css/jquery-weui.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">  
+		<style>
+			.register-table{ width: 90%; margin:0 auto;}
+			.register-font{ padding: 10px 0 15px; font-size: 0.8em; color: #666666; text-align: center;}
+		</style>
+	</head>
+	<body>
+		<div class="member-title font-member" style=" font-size: 1em;">
+			注册和顺会员
+		</div>
+		
+		<p class="register-font">输入正确的信息,我们将为您制作唯一的会员卡</p>
+		<!--注册列表-->
+		<div class="weui-cells list-cells list-info register-table">
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__ft">
+	          <div class="weui-grid__icon">
+		        <i class="iconfont icon-huiyuanqia"  style=" font-size: 1.3em;"></i>
+		      </div>
+	        </div>
+	        <div class="weui-cell__bd">
+	          <input class="weui-input" placeholder="车牌,如湘ADAK47" type="text">
+	        </div>
+	      </div>
+	      
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__ft">
+	          <div class="weui-grid__icon">
+		        <i class="iconfont icon-car"  style=" font-size: 1.3em !important; color: #EAD25C;"></i>
+		      </div>
+	        </div>
+	        <div class="weui-cell__bd">
+	          <input class="weui-input" placeholder="车型,如大众宝来1.6" type="text">
+	        </div>
+	      </div>
+	      
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__ft">
+	          <div class="weui-grid__icon">
+		        <i class="iconfont icon-phone"  style=" font-size: 1.3em !important;"></i>
+		      </div>
+	        </div>
+	        <div class="weui-cell__bd">
+	          <input class="weui-input" placeholder="您的手机号" type="text">
+	        </div>
+	      </div>
+	      
+	      <div class="weui-cell weui-cell_select weui-cell_select-before">
+		  	<div class="weui-cell__bd" style="width:80%;">
+	          <input class="weui-input" pattern="[0-9]*" placeholder="请输入收到的验证码" type="number">
+	        </div>
+		    <div class="weui-cell__ft">
+		      <div class="list-inline-bg-2">获取验证码</div>
+		    </div>
+		  </div>
+		  
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__ft" style="font-size:0.9em; color: #333333;">
+	          推荐人
+	        </div>
+	        <div class="weui-cell__bd">
+	          <input class="weui-input" placeholder="推荐人编号" type="text">
+	        </div>
+	      </div>
+	      
+	      <div class="weui-cell weui-cell_select weui-cell_select-before" style="background:#fff;padding: 15px 15px;">
+		  	<div class="weui-cell__bd">
+	          <a href="javascript:;" class="weui-btn weui-btn-submit">注  册</a>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>
+<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/city-picker.min.js"></script>
+<script src="js/ui.js"></script>

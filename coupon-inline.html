@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-touch-fullscreen" content="YES">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>优惠券兑换</title>
+		<link rel="stylesheet" href="/jquery-weui-build/dist/lib/weui.css">
+		<link rel="stylesheet" href="/jquery-weui-build/dist/css/jquery-weui.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">  
+		<style>
+			.weui-cells>div{ background: #fff;}
+			span,.weui-cell__bd{ font-size: 0.9em}
+			.weui-cell:before{ left: 0;}
+			.time-start{ margin-top: 15px;}
+			.p-2{padding: 8px 0 2px !important;}
+		</style>
+	</head>
+	<body>
+		<div class="member-title font-member">
+			<span class="return">< 返回</span>
+			<span class="title-inlinespan">10元优惠非独立声卡jfk垃圾了撒打算了咖啡机<span>
+		</div>
+		
+		<p class="inline-title-p">输入正确的信息,我们将为您制作唯一的会员卡</p>
+		<!--注册列表-->
+		<div class="weui-cells list-cells list-info" style=" background: #F4F4F4;">
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__bd">
+	          此券为10元加油抵用券,油品类别:不限油品
+	        </div>
+	      </div>
+	      
+		  <div class="weui-cell weui-cell_select weui-cell_select-before time-start">
+	        <div class="weui-cell__bd">
+	      		生效时间: 2016-12-29 00:00:00
+	        </div>
+	      </div>
+	      <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__bd">
+	      		生效时间: 2016-12-29 00:00:00
+	        </div>
+	      </div>
+	    
+	      <p class="inline-title-p p-2">说明</p>
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__bd">
+	      		<span>1.本券为五星油品体验券.</span>
+	      		<br />
+	      		<span>1.本券为五星油品体验券.</span>
+	      		<br />
+	      		<span>1.本券为五星油品体验券本券为五星油品体验券.</span>
+	        </div>
+	      </div>
+	      
+	      <p class="inline-title-p p-2">核销券号</p>
+		  <div class="weui-cell weui-cell_select weui-cell_select-before">
+	        <div class="weui-cell__bd">
+	      		<span>78798498465465</span>
+	      		<br />
+	      		<span>1.本券为五星油品体验券.</span>
+	        </div>
+	      </div>
+		</div>
+	</body>
+</html>
+<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/city-picker.min.js"></script>
+<script src="js/ui.js"></script>
+<script>
+	$(".return").unbind().bind("touchstart", function () { document.location.href = "user-coupon.html"; })
+</script>
