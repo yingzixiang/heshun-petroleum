@@ -8,56 +8,48 @@
 		<meta name="apple-touch-fullscreen" content="YES">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<title>和顺石油 | 更换注册手机</title>
+		<title>和顺石油 | 会员卡</title>
 		<link rel="stylesheet" href="/jquery-weui-build/dist/lib/weui.css">
 		<link rel="stylesheet" href="/jquery-weui-build/dist/css/jquery-weui.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/reset.css"> 
-		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
 	</head>
 	<body>
 		<div class="member-title font-member">
 			<span class="return">< 返回</span>
-			更换注册手机
+			我的会员卡/挪车卡
 		</div>
-		<!--更换手机信息-->
-		  <div class="weui-cells list-cells list-phone">
-		      <div class="weui-cell weui-cell_select weui-cell_select-before">
-		        <div class="weui-cell__ft">
-			         <div class="weui-grid__icon">
-				      <i class="iconfont icon-phone"></i>
-				     </div>
-		        </div>
-		        <div class="weui-cell__bd">
-		          <input class="weui-input" placeholder="您的手机号码" type="password">
-		        </div>
-		      </div>
-		    </div>
-		  
-		  <div class="weui-cell" style="background:#fff;">
-		  	<div class="weui-cell__bd" style="width:80%;">
-	          <input class="weui-input" pattern="[0-9]*" placeholder="请输入收到的验证码" type="number">
-	        </div>
-		    <div class="weui-cell__ft">
-		      <div class="list-inline-bg-2">获取验证码</div>
-		    </div>
-		  </div>
-		  
-		  <!--提交按钮-->
-		  <div class="weui-cell" style="background:#fff;">
+		<!--选择优惠券-->
+		<div class="weui-cells list-cells list-phone member-explan">
+			<strong>注意:</strong><br />
+			<strong>会员卡解绑</strong>
+			<span>操作不会更改挪车平台的电话绑定关系,如需修改,请在挪车卡微信公众号:</span>
+			<strong>极速挪车</strong>
+			<span>操作,挪车平台服务电话:</span>
+			<i>4000775963</i>
+		</div>
+		
+				  <!--上传图片-->
+		  <div class="weui-cell" style="padding-top: 15px; background:#fff;">
 		  	<div class="weui-cell__bd">
-	          <a href="javascript:;" class="weui-btn weui-btn-submit">提交</a>
+	          <a href="javascript:;" class="weui-btn weui-scan" style="">点击扫描挪车卡二维码绑定</a>
 		    </div>
 		  </div>
-		  
+		<!--优惠券列表-->
+	    <div class="weui-cell" style="height: 2.5vh; background:#fff; font-size: 0.9em; color: #8A8686; text-align: center;">
+	  		<div class="weui-cell__bd">
+         		和顺高端定制,保护隐私的电话挪车会员卡！
+		    </div>
+		</div>
 	</body>
 </html>
 <script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
 
+<!-- ���ʹ����ĳЩ��չ�������Ҫ�����JS -->
 <script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
 <script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/city-picker.min.js"></script>
 <script src="js/ui.js"></script>
 <script>
-	$(".return").unbind().bind("touchstart", function () { document.location.href = "member-information.html"; })
+	$(".return").unbind().bind("touchstart", function () { document.location.href = "index.html"; })
 </script>
