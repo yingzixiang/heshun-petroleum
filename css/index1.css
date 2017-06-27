@@ -1,0 +1,90 @@
+body,html{ width: 100%; height: 100%; background: #F4F4F4; font-family: "微软雅黑";}
+i{ font-style: normal;}
+.noborder{border:none !important;}
+input{ font-size: 0.9em !important;}
+/*主页*/
+.user-title{ position: relative; width: 100%; height: 26vh; background: #0f66bc; border-bottom: 15px solid #e5e5e5;}
+.user-title>div{ position:absolute; left: 50%; margin-bottom: 10px; width:16vh; height:16vh; background: center center; text-align: center; 
+		background-size: cover;
+		border-radius: 50%;
+		transform: translate(-50%,2vh);}
+.user-title>p{ position: relative; text-align: center; font-size: 1.3em; line-height: 7vh;}
+.grids-box{ margin-bottom: 15px; border-top: 1px solid #ECECEC; border-bottom: 1px solid #ECECEC; background: #fff;}
+.weui-grid__icon{ position: relative; text-align: center;}
+.index-iconfont{ position:relative; top: -8px; font-size: 25px !important; font-weight: 600;}
+.grid-font{ color: #828282;}
+.icon-people{ color: #4A9FFB;}
+.icon-gift{ color: #EA4848;}
+.icon-youhuiquan{ color: #02CC79;}
+.icon-renzheng{ color: #FD0A0A;}
+.icon-huiyuanqia{ color: #EAD25C;}
+.icon-exit{ color:black;}
+.user-name{ position: relative; top: 18vh; color: #fff;}
+
+.icon-keyongzijin{ color:#02CC79;}
+.icon-bukeyong{ color:#FD0A0A;}
+hr{ height: 2px; border: 0; background-color: #ececec;}
+
+/*会员信息*/
+.member-title{ width: 100%; height: 7.5vh; background: #0f66bc; text-align: center;}
+.member-title>span{ float: left; position:absolute; left: 1em; font-size: 0.9em;}
+.font-member{ color: #fff; font-size: 1.2em; line-height: 7.5vh;}
+.list-cells{ margin: 0; border-top: 1px solid #ECECEC; border-bottom: 1px solid #ECECEC;}
+.list-title{ border-bottom: none;}
+.list-inline-bg{ padding: 2px 8px; background: #287DE6; border-radius: 1em; font-size: 0.5em; color: #fff;}
+.list-info{ border-top:none;}
+.member-info-footer{ margin-top: 30px;}
+.member-info-footer>p{ font-size: 13px !important;}
+
+/*�޸��ֻ����*/
+.list-phone{ border-bottom: none;}
+.weui-cell_select-before{ padding: 10px 15px;}
+.list-inline-bg-2{ padding: 2px 12px; background: #E6E5E5; border: none; border-radius: 5px; font-size: 0.5em; color: #000; }
+.weui-btn-submit{ background: #0f66bc;}
+.icon-phone,.icon-lock,.icon-fapiaoxinxi2{ font-size: 1.1em !important; color: #007CFF; font-weight: bold}
+.icon-lock{ font-size: 1.2em !important;vertical-align: middle;}
+.icon-fapiaoxinxi2{ font-size: 1.2em !important; }
+.icon-car{ font-size: 1.1em !important; color: #007CFF; vertical-align: middle;}
+
+/*�ҵ��Ż�ȯ*/
+.list-coupon-tip{ height: 6.5vh; background: #F4F4F4; font-size: 0.9em; color: #8A8686; line-height: 6.5vh; text-align: center;}
+.check-radius{ border-radius: 50%; border-color: #cccccc;}
+.check-radius>i{ width: 20px; height: 20px; margin-right: 5px; border: 1px solid #cccccc; border-radius: 50%;}
+.check-font{ display: block;}
+.check-font:before{ content: '\EA06'; margin: 0; font-size: 20px; color: #09BB07;}
+.weui-cell-check{ position:relative;}
+
+/*渠道认证*/
+.photo-container{ height: 67%; background-size: contain;}
+.photo-container img{ position:relative;left: 10%; width: 80%; height: 15-%; height: 96%;padding: 2% 0;}
+.img-1{ display: none;}
+
+/*会员卡*/
+.member-explan{ padding: 10px; color: #848484; font-size: 1em; line-height: 1.6em;}
+.member-explan>i{ color: blue;}
+.weui-scan{ background: #18BC9A;}
+
+/*我的优惠券*/
+.coupon-list{ width: 100%; height: 5vh; display: table; border-bottom:1px solid #cccccc  }
+.coupon-list div{ display: table-cell;}
+.coupon-img{ width: 20%; text-align: center; vertical-align: middle;}
+.coupon-text{ padding: 10px 0px ; width: 70%; font-size: 0.8em;}
+.coupon-text>strong,.coupon-text>span{ line-height: 1.6em;}
+.coupon-text>span{ color: #8A8A8A;}
+.coupon-last{width:10%; text-align: center; vertical-align: middle;}
+
+
+/*客户消息*/
+.msg-list{ width: 100%; height: 5vh; display: table; border-bottom:1px solid #cccccc  }
+.msg-list div{ display: table-cell;}
+.msg-img{ width: 20%; text-align: center; vertical-align: middle;}
+.msg-text{ padding: 14px 0px 0px 5px; width: 90%; font-size: 0.8em;}
+.msg-text>strong,.coupon-text>span{ line-height: 1.6em;}
+.msg-text>span{ color: #8A8A8A;}
+.msg-last{width:10%; text-align: center; vertical-align: middle;}
+
+
+/*优惠券详细资料*/
+.title-inlinespan{ left: 20% !important; width: 70%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;}
+.inline-title-p{ padding: 4px 0; font-size: 0.8em; text-indent: 1em; color: #848484;}
+
