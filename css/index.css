@@ -74,3 +74,14 @@ hr{ height: 2px; border: 0; background-color: #ececec;}
 .title-inlinespan{ left: 20% !important; width: 70%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;}
 .inline-title-p{ padding: 4px 0; font-size: 0.8em; text-indent: 1em; color: #848484;}
 
+/*优惠券*/
+.coupon-img{ width: 100%; height: 30vh;}
+.coupon-title{ background: #fff;}
+.coupon-inline{
+	width: 100%; height: auto; background: #fff; padding: 20px 0;
+}
+.coupon-title{ padding: 10px 0; font-weight: 600; color: #9d9c9c; text-align: center;}
+.coupon-inline p{ padding: 0 10px; line-height: 3.8vh; color: #a5a5a5;}
+.coupon-inline div{ padding: 30px 10px; color: #a5a5a5;}
+.get-btn{ width:100%; padding: 2vh 0; margin-top: 1rem; background: #fff;}
+.coupon-footer{ background: #F4F4F4; text-align: center; color: #a99f9f; padding: 20px 0 10px;}
